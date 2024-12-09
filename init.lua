@@ -17,7 +17,7 @@ end
 
 require "lazy_setup"
 require "polish"
-require('user.keymaps')
-require('user.telescope')
-vim.cmd("silent !~/.config/nvim/auto-pull.sh")
-
+require "user.keymaps"
+require "user.telescope"
+require "user.lsp"
+-- vim.cmd "silent !~/.config/nvim/auto-pull.sh"
